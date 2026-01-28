@@ -1,0 +1,7 @@
+{
+  "name": "Utsaha Jagriti Mandali",
+  "description": "Official website for Utsaha Jagriti Mandali. Located in Kathmandu, Nepal. Committed to radical worship, community transformation, and spreading the fire of the Gospel across our many branches.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

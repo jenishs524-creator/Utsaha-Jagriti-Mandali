@@ -1,0 +1,148 @@
+
+import { BranchDetails } from '../types';
+
+export const branchData: BranchDetails[] = [
+  {
+    id: 'main',
+    name: "Utsaha Jagriti Mandali (Main Church)",
+    nameNe: "उत्साह जागृति मण्डली (मुख्य मण्डली)",
+    location: "Gokarneshwor Banquet Opposite, Kathmandu, Nepal",
+    locationNe: "गोकर्णेश्वर ब्याङ्क्वेट अगाडि, काठमाडौं",
+    established: "AD 2015/04/23 (BS 2072/01/10)",
+    startTime: "10:00 AM",
+    leader: "Pastor Mosha Tamang",
+    contact: "9809495879",
+    description: "Our primary worship center serving as the spiritual heart and headquarters for all our missions across Nepal.",
+    mapQuery: "Gokarneshwor Banquet Opposite Kathmandu"
+  },
+  {
+    id: 'parbat',
+    name: "Parbat District Branch",
+    nameNe: "पर्वत जिल्ला शाखा",
+    location: "Parbat District, Nepal",
+    locationNe: "पर्वत जिल्ला",
+    established: "Mission Call",
+    startTime: "10:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Reaching the hills of Parbat with the warmth of the Holy Spirit.",
+    mapQuery: "Parbat District Nepal"
+  },
+  {
+    id: 'dhorsing-makwanpur',
+    name: "Dhorsing, Makwanpur",
+    nameNe: "धोर्सिङ, मकवानपुर",
+    location: "Dhorsing, Makwanpur, Nepal",
+    locationNe: "धोर्सिङ, मकवानपुर",
+    established: "Divine Outreach",
+    startTime: "10:30 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "A beacon of faith serving the Dhorsing community with love and service.",
+    mapQuery: "Dhorsing Makwanpur Nepal"
+  },
+  {
+    id: 'manahari',
+    name: "Manahari, Makwanpur",
+    nameNe: "मनहरी, मकवानपुर",
+    location: "Manahari, Makwanpur, Nepal",
+    locationNe: "मनहरी, मकवानपुर",
+    established: "Grace Center",
+    startTime: "10:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Transforming lives in Manahari through the power of the Word.",
+    mapQuery: "Manahari Makwanpur Nepal"
+  },
+  {
+    id: 'gwarku',
+    name: "Gwarku Lalitpur",
+    nameNe: "ग्वार्कु, ललितपुर",
+    location: "Gwarku, Lalitpur, Nepal",
+    locationNe: "ग्वार्कु, ललितपुर",
+    established: "Historic Mission",
+    startTime: "11:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Igniting revival in the heart of Lalitpur through consistent prayer and fellowship.",
+    mapQuery: "Gwarku Lalitpur Nepal"
+  },
+  {
+    id: 'nayapati',
+    name: "Nayapati Kathmandu",
+    nameNe: "नयाँपाटी, काठमाडौं",
+    location: "Nayapati, Kathmandu, Nepal",
+    locationNe: "नयाँपाटी, काठमाडौं",
+    established: "Kingdom Seed",
+    startTime: "10:30 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "A thriving fellowship center reaching the north-eastern outskirts of the capital.",
+    mapQuery: "Nayapati Kathmandu Nepal"
+  },
+  {
+    id: 'kapan',
+    name: "Kapan Kathmandu",
+    nameNe: "कपन्, काठमाडौं",
+    location: "Kapan, Kathmandu, Nepal",
+    locationNe: "कपन्, काठमाडौं",
+    established: "City Light",
+    startTime: "11:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Building strong families and disciples in the vibrant community of Kapan.",
+    mapQuery: "Kapan Kathmandu Nepal"
+  },
+  {
+    id: 'charikote',
+    name: "Charikote Branch",
+    nameNe: "चरीकोट शाखा",
+    location: "Charikot, Dolakha, Nepal",
+    locationNe: "चरीकोट, दोलखा",
+    established: "Mountain Hope",
+    startTime: "10:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Bringing the light of Christ to the gateway of the Himalayas in Dolakha.",
+    mapQuery: "Charikot Dolakha Nepal"
+  },
+  {
+    id: 'dadagau',
+    name: "Dolakha Dada Gau",
+    nameNe: "दोलखा डाँडागाउँ",
+    location: "Dada Gau, Dolakha, Nepal",
+    locationNe: "डाँडागाउँ, दोलखा",
+    established: "Spirit Village",
+    startTime: "10:30 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Reviving rural communities through deep spiritual fellowship and support.",
+    mapQuery: "Dada Gau Dolakha Nepal"
+  },
+  {
+    id: 'dhataghari',
+    name: "Dhataghari, Makwanpur",
+    nameNe: "ढाटाघारी, मकवानपुर",
+    location: "Dhataghari, Makwanpur, Nepal",
+    locationNe: "ढाटाघारी, मकवानपुर",
+    established: "Faith Frontier",
+    startTime: "10:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Spreading the fire of revival in the Dhataghari region.",
+    mapQuery: "Dhataghari Makwanpur Nepal"
+  },
+  {
+    id: 'aathkhale',
+    name: "Aathkhale Branch",
+    nameNe: "आठखले शाखा",
+    location: "Aathkhale, Nepal",
+    locationNe: "आठखले",
+    established: "Everlasting Grace",
+    startTime: "10:00 AM",
+    leader: "Elder [Name]",
+    contact: "9809495879",
+    description: "Standing as a pillar of truth and a sanctuary of peace in Aathkhale.",
+    mapQuery: "Aathkhale Nepal"
+  }
+];
